@@ -22,10 +22,10 @@ class App extends Component {
     return (
      
      
-        <div className="container" key={i}>
-          <div className="row">
-            <div className="col-6">
-            <div className="card p">
+        <div className="col-md-4" key={i}>
+          <div className="card mt-4">
+            <div className="card-title text-center">
+            <div className="card-tittle p">
             <img
             className="card-img-top" alt="Card image cap"src="https://picsum.photos/id/610/203/203"></img>
             <div className="card-body">
@@ -43,7 +43,7 @@ class App extends Component {
   return (
      
     <div className="App">
-       <div className="">
+       <div className="col-md-8">
                 <div className="row">
                   {todos}
                 </div>
